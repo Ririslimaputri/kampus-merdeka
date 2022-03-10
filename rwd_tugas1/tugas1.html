@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 1</title>
+        <link href="css/bootsrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script>
+        $( function() {
+            $( "#tabs" ).tabs();
+        } );
+        
+  </script>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!---baris pertama-->
+            <div class="row">
+                <div class="col-md-12">
+                   <!--awal carousel-->
+                   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Gambar 1</h5>
+                          <p>UNiversitas Pamulang</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Gambar 2</h5>
+                          <p>Gedung Universitas Pamulang</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Gambar 3</h5>
+                          <p>Aula Universitas Pamulang</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                   <!--akhir carousel-->
+                </div>
+            </div>
+            <!--baris kedua-->
+            <div class="row">
+                <div class="col-md-12">
+                    <!--awal navbar-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="https://unpam.ac.id/sejarah/history/" target="_blank">Profile</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://unpam.ac.id/kegiatan-mahasiswa/"  target="_blank">Kegiatan-Mahasiswa</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="https://www.youtube.com/channel/UCOTqQ5HmoirdFfPVhkZMF0Q/videos" target="_blank">Galery Vidio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                    <!---akhir navbar-->
+                </div>
+            </div>
+            <!--baris ketiga-->
+            <div class="row">
+                <!--left content-->
+                <div class="col-md-3">
+                    <!-- awal list grup-->
+                    <p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                          Home
+                        </a> 
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Visi-Misi & Tujuan 
+                        </button> 
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            Fasilitas
+                          </button>
+                    </p>
+                      <div class="collapse" id="collapseExample1">
+                        <div class="card card-body">
+                            </strong> <strong>Universitas Pamulang didirikan pada tahun 2000 oleh Yayasan Prima Jaya yang diketuai oleh Drs. Wayan.</strong>
+                            Namun karena ketidakmampuan Yayasan Prima Jaya dalam mengelola suatu Universitas, maka merekapun mengalihkan kepemilikan dan pengelolaannya kepada Yayasan Sasmita Jaya pada awal tahun 2005.
+                            Setelah berganti manajemen, maka berganti pulalah tujuan yang ingin dicapai Universitas Pamulang.
+                            Oleh karena itu Universitas Pamulang selalu mengangkat tenaga pengajar dan staff administrasi yang berkompeten dibidangnya.
+                            Kamipun juga melakukan pengembangan dibidang kurikulum yang disesuaikan dengan kebutuhan dunia kerja, sehingga seluruh lulusan Universitas Pamulang diterima dengan baik dalam dunia kerja. Selain itu untuk menunjang kegiatan perkuliahan, Universitas Pamulang telah menyediakan berbagai macam fasilitas seperti laboratorium dan perpustakaan.
+                            Dengan terselenggaranya pendidikan murah di Universitas Pamulang, kami selaku pihak Yayasan Sasmita Jaya berharap semua lapisan masyarakat di Indonesia dapat menikmati pendidikan di bangku kuliah. 
+                            Dengan terdidiknya seluruh lapisan masyarakat Indonesia maka secara otomatis pun itu akan menurunkan tingkat kebodohan dan kemiskinan serta meningkatkan daya jual dan harga diri masyarakat Indonesia.Uiversitas pamulang adalah salah satu Universitas swasta yang berlokasi di tangerang selatan. Universitas pamulang ini adalah salah satu Universitas yang diperhitungkan karena merupakan salah satu UNiversotas terumah namun bukan murahan bagi kalangan swasta</p></b> 
+                        </div>
+                      </div>
+                      <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            <h5>Visi dan Misi Universitas Pamulang</h5>
+                            <strong>This is the second item's accordion body.</strong>
+                              <ul>
+                              <li><h6>VISI</h6></li>
+                              </ul>
+                              <strong>Menjadi universitas peringkat 40 besar pada tingkat nasional yang dilandasi oleh nilai humanis dan religius pada tahun 2024</strong>
+                              <ul>
+                              <li><h6>MISI</h6></li>
+                              </ul>
+                              <p>1. Menyelenggarakan pendidikan akademik, vokasi, dan profesi yang profesional berbasis humanis dan religius.
+                              <p>2. Melaksanakan penelitian berbasis humanis dan religius yang menghasilkan inovasi untuk kesejahteraan masyarakat.
+                              <p>3. Melaksanakan pengabdian kepada masyarakat implementasi penelitian berbasis humanis dan religius.
+                              <p>4. Menyelenggarakan peningkatan kualitas sumber daya manusia yang kompeten dan profesional.
+                              <p>5. Menyelenggarakan kerja sama dalam negeri dan luar negeri berbasis saling menguntungkan.</p>
+                              <ul>
+                              <li><h6>TUJUAN</h6></li>
+                              </ul>
+                              <p>1. Menghasilkan lulusan pendidikan akademik, vokasi, dan profesi yang profesional berbasis humanis dan religius
+                              <p>2. Menghasilkan produk penelitian berbasis humanis dan religius yang inovatif untuk kesejahteraan masyarakat
+                              <p>3. Terselenggaranya pengabdian kepada masyarakat implementasi penelitian berbasis humanis dan religius
+                              <p>4. Terwujudnya peningkatan kualitas sumber daya manusia yang kompeten dan profesional
+                              <p>5. Terselenggaranya kerja sama dalam negeri dan luar negeri berbasis saling menguntungkan </p>
+                          </div>
+                      </div>
+                      <div class="collapse" id="collapseWidthExample">
+                        <div class="card card-body">
+                            <h4>Fasilitas yang Terdapat di Universitas Pamulang</h4>
+                                    <ul>
+                                        <li><h6>GEDUNG UNPAM</h6></li>
+                                    </ul>
+                                        <p>Gedung Kampus Universitas Pamulang terdapat di 3 lokasi yang berbeda, Yaitu
+                                        <p>1. Kampus 1. berada di JL.Surya kencana No.1 Pamulang,
+                                        <p>2. Kampus 2, berada Jl. Raya Puspitek No.46, Buaran, Serpong
+                                        <p>3. Kampus 3, berada di Witana Harja, Pamulang, </p>
+                                    <ul>
+                                        <li><h6>PERPUSTAKAAN</h6></li>
+                                    </ul>
+                                    <ul>
+                                        <li><h6>MASJID UNPAM</h6></li>
+                                    </ul>
+                                    <ul>
+                                        <li><h6>LABPRATORIUM</h6></li>
+                                    </ul>
+                                        <p>1. Laboratorium dan fasilitas pendukung yang terdapat di Universitas Pamulang antara lain:
+                                        <p>2. Ruangan alat/administrasi kegiatan laboratorium
+                                        <p>3. Laboratorium Komputer
+                                        <p>4. Laboratorium Bahasa
+                                        <p>5. Akses Jaringan menggunakan system mickortik, LAN dan Wireletss 24jaM
+                                        <p>6. Ruangan Full Ac
+                                        <p>7. Laptop dan infocus untuk perlengkapan belajar dan mengajar. </p>
+                                    <ul>
+                                        <li><h6>KESEHATAN (KLINIK)</h6></li>
+                                    </ul>
+                                        <p>Dalam rangka untuk memenuhi tuntutan pelayanan kesehatan yang maksimal, sesuai dengan apa yang diharapkan masyarakat Kota Tangerang Selatan, maka Klinik dan Rumah Bersalin Widya Dharma Husada yang berada dibawah naungan Yayasan Widya Dharma Husada memandang perlu untuk mendirikan suatu lembaga kesehatan untuk melayani pelayanan kesehatan masyarakat di wilayah Kota Tangerang Selatan dan sekitarnya. Sebagai kota yang sedang berkembang, sampai saat ini kita masih menghadapi banyak permasalahan kesehatan masyarakat. Dalam rangka upaya menanggulangi permasalahan kesehatan tersebut pemerintah telah berupaya mengembangkan berbagai macam kegiatan pelayanan kesehatan masyarakat, pelayanan tersebut selain dilaksanakan di sarana kesehatan milik pemerintah juga sarana pelayanan milik swasta atau masyarakat sendiri. Sistem kesehatan disusun untuk mendapatkan hasil guna kesehatan masyarakat secara maksimal dengan cara mengefektifkan semua sumber daya manusia yang tersedia, juga diperlukan adanya hubungan secara berjenjang dari tingkat yang tertinggi hingga tingkat yang lebih rendah dalam kaitan kualitas pelayanan masyarakat. Disadari masih cukup banyak kendala yang harus diatasi untuk menjamin berhasilnya berbagai pelayanan kesehatan tersebut.
+                                        <p>Oleh karena itu kami ingin membangun suatu tempat pelayanan kesehatan yang lebih mudah dijangkau oleh warga sehingga warga dapat lebih mudah menjangkau tempat pelayanan kesehatan dan di harapkan warga dapat mencegah kemungkinan penyakitnya menjadi lebih parah atau untuk mengurangi kemungkinan komplikasi yang dapat ditimbulkan. Tingkat kesehatan warga akan meningkat dan seiring dengan itu kesejahteraannya juga akan meningkat pula.</p>
+                        </div>
+                    </div>
+                    <!--ini akhir list group-->
+                </div>
+                <!--main content-->
+                <div class="col-md-6">
+                    <!-- awal list grup-->
+                    <div id="tabs">
+                        <ul>
+                          <li><a href="#tabs-1">Kegiatan</a></li>
+                          <li><a href="#tabs-2">Jurusan</a></li>
+                          <li><a href="#tabs-3">Ruangan</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <h2>Kegiatan Agama</h2>
+                          <p>
+                            <h2>Dosen Agama Unpam Menggelar Workshop Menulis Bagi Generasi Milenial</h2>
+                            <p>Lembaga Kajian Keagamaan Universitas Pamulang (LKK-UNPAM) melalui Divisi Web dan Jurnal telah menggelar workshop menulis dengan tema “Tips Menulis Bagi Generasi Milenial“ pada Senin (29/06/2020) melalui video conference 
+                            dengan narasumber Septian Arif Budiman, M.Pd.I, Dr. Amaliyah, MA, dan Deni Darmawan,.M.Pd.I. Acara ini dihadiri oleh Rektor Unpam H. Dr. Dayat Hidayat, M.M, ketua LKK Ust. H. Sofyan Hadi Musa, M.A., para dosen agama Universitas Pamulang, dan beberapa mahasiswa dari berbagai prodi.
+                            <p>Dalam sambutanya, Rektor Unpam Dayat Hidayat menyampaikan kepada mahasiswa agar ada produk atau karya tulis yang dihasilkan. “Setelah workshop, mahasiswa mempunyai keberanian untuk menulis di media massa, menulis karya ilmiah dan buku,” terangnya.
+                            <p>“Menulis itu asyik, ubah paradigma agar menulis itu asyik dan menjadi hobi. Untuk bisa menulis karya ilmiah, sering datang ke perpustakaan, rumah atau rumah teman, kemudian cari permasalahan, pilih jenis penelitian, cari objek dan subyek penelitian yang tepat dan usahakan referensi yang relevan,” ungkap dosen agama S1 Akuntasi ini.
+                            <p>Tips menulis buku disampaikan juga oleh Amaliyah. Untuk menulis, ada langkah-langkahnya.
+                            <p>“Untuk menulis landasan berfikirnya adalah al-quran dan hadist. Apa yang menjadi pusat pemikiran dan fokus kita, kemudian kumpulkan bahan mentah, referensi, daftar isi pembahasan, satukan hati, akal dan jasmani agar bisa merangkai kalimat,” papar Amaliyah yang sudah menghasilkan 15 buku ini.
+                            <p>“Jika kita ingin menulis buku maka kita harus banyak membaca banyak hal sehingga mendapatkan ilmu dan tumbuh rasa keimanan kita kepada Allah SWT. Ilmu pusatnya di hati, maka jadikanlah tulisan kita sebagai media berdakwah dan berjihad dijalan Allah Swt. Satukan akal, hati dan jasmani kita dalam menulis dengan bahasa akhlak yang baik sehingga menghasilkan tulisan yang memberi kebaikan dunia dan akhirat,” jelas dosen yng mengampu di S1 Akuntansi ini.
+                            <p>Narasumber terakhir disampaikan oleh Deni Darmawan. Keprihatinannya terhadap generasi milenial terhadap kegiatan seperti ini. “Masih kurangnya minat mengikuti workshop atau seminar menulis, merasa tidak punya bakat, kurangnya kesadaran untuk mengembangkan ketrampilan menulis dan masih banyak pembelajaran e-learning yang copy paste membuat kita malas menulis,” ungkap dosen agama D-III Sekretari ini.
+                            <p>“Jenis tulisan di media massa ada berita, opini, feature, tajuk, esai, kolom, resensi, dan pojok. Namun, peluang yang dimuat adalah jenis artikel berita dan opini,” ujarnya.
+                            <p>“Dalam menulis artikel berita dan opini ada yang harus diperhatikan yaitu nilai berita. Artikel harus aktual, yang up to date, penting, mempunyai dampak, luar biasa, konflik dan sebagainya. Kaidah penulisan berita di awal paragraf ada unsur 5W1H (what, who, where, when, why, how). Tehnik penulisan pakai prinsip piramida terbalik. Untuk menulis opini, langkahnya dengan menganalisis situasi, mencatat ide, membuat kerangka, menuliskannya, menyunting dan mempublishnya di media yang diinginkan,” pungkas ketua web di lembaga kajian keagamaan unpam ini.
+                            </p>
+                          </p>
+                          <p>
+                            <h2>PKM MAHASISWA TEKNIK INDUSTRI</h2>
+                            <h3>Penyuluhan Penerapan Nilai Tambah Produk Berdasarkan Level Pohon Industri Untuk Peningkatan Pendapatan di Masa Pandemi</h3>
+                             Pada hari Jum’at s.d Minggu, 05 s.d 07 November 2021, telah dilaksanakan kegiatan pengabdian kepada masyarakat (PKM) oleh dosen dan mahasiswa Program Studi Teknik Industri, Fakultas Teknik, Universitas Pamulang
+                             Kegiatan ini dilakukan dengan tema “Penerapan Nilai Tambah Produk Berdasarkan Level Pohon Industri Untuk Peningkatan Pendapatan di Masa Pandemi di Desa Pasir Ampo Kecamatan Kresek” di Desa Pasir Ampo, Kp. Jeruk Purut RT.09 RW.004, Kecamatan Kresek, Kabupaten Tangerang Banten.Walaupun dalam kondisi pandemik sehingga pelaksanaan harus selalu mematuhi protokol kesehatan.
+                            <p>Kegiatan pengabdian kepada masyarakat ini diketuai oleh Budi Aprina, S.T., M.T, Anthon Rudy, S.T., M.T selaku narasumber, dan Edi Supriyadi, S.T., M.T sebagai anggota serta dibantu oleh rekan-rekan mahasiswa dari prodi teknik industri Universitas pamulang.
+                            <p>Penyuluhan dan pelatihan penerapan nilai tambah produk berdasarkan level pohon industri untuk menciptakan pendapatan industri kreatif pada masyarakat, dengan memberikan pengetahuan dan wawasan serta peluang yang sangat potensial dikembangkan, karena dengan ketrampilan ini dapat dikembangkan industri kreatif guna membuka usaha bagi masyarakat serta dapat meningkatkan kreativitas. Obyek pada kegiatan pengabdian kepada masyarakat ini adalah karangtaruna Desa Pasir Ampo, Kp. Jeruk Purut RT.009 RW.004, Kecamatan Kresek, Kabupaten Tangerang, Banten, karena pengusul pengabdian kepada masyarakat melihat potensi dari sumber daya manusia yaitu Karangtaruna sehingga dengan penyuluhan ini diharapkan dapat menambah keterampilan serta sangat memungkinkan untuk dikembangkan guna membuka usaha kecil dan meningkatkan ekonomi masyarakat setempat.
+                            <p>Tujuan dari penyuluhan dan pelatihan penerapan nilai tambah produk berdasarkan level pohon industri untuk peningkatan pendapatan di masa pandemi mampu menciptakan industri kreatif pada karangtaruna agar masyarakat setempat dapat meningkatkan ketrampilan sehingga dapat berkreasi, berkarya dan berdaya juang untuk menciptakan produk-produk industri kreatif bernilai guna serta bernilai ekonomi tinggi.
+                            <p>Oleh karena itu, melalui kegiatan pengabdian kepada masyarakat yang dilakukan oleh tim dosen dan mahasiswa Universitas Pamulang ini diharapkan dapat turut berkontribusi membangun Desa Pasir Ampo, Kp. Jeruk Purut RT.009 RW.004, Kecamatan Kresek, Kabupaten Tangerang, Banten, melalui Karangtaruna untuk berbagi pengetahuan, mendorong masyarakat untuk pengembangan sumberdaya yang dimiliki secara berkelanjutan untuk meningkatkan ekonomi masyarakat. Penyuluhan dan pelatihan ini dimaksudkan dapat memberikan pengetahuan serta keterampilan bagi masyarakat untuk meningkatkan kemampuannya dan berkarya sehingga mendatangkan manfaat bagi masyarakat sekitar.
+                            </p>
+                          </p>
+                          <p>
+                            <h2>PKM MAHASISWA TEKNIK INFORMATIKA</h2>
+                            <h3>Mahasiswa Unpam Bekali Pelajar SD Pengetahuan tentang Komputer</h3>
+                            Sebanyak 18 siswa Sekolah Dasar Negeri (SDN) Muncul 03, Setu, Tangsel mendapatkan pembekalan 
+                            pengetahun dasar komputer dari Mahasiswa Fakultas Teknik Informatika Universitas Pamulang (Unpam)
+                            Alasan mereka memperkenalkan pengetahuan dasar komputer kepada para pelajar SD, 
+                            karena anak-anak harus mengikuti perkembangan teknologi sejak dini.
+                            “Sekarang sudah era globalisasi anak-anak harus mengenal perangkat dan sistem komputer sejak.....<br>
+                            <a href="https://tangerangdaily.id/rilis-pers/mahasiswa-unpam-bekali-pelajar-sd-pengetahuan-tentang-komputer/">
+                            Baca selengkapnya...
+                            </a>
+                          </p>
+                        </div>
+                        <div id="tabs-2">
+                          
+                            <table class="table table-striped">
+                                <thead>
+                                  <tr>
+                                    <th  class="table-success" scope="col">NO</th>
+                                    <th   class="table-success" scope="col">Fakultas</th>
+                                    <th  class="table-success" scope="col">Program Studi</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row"  class="table-secondary">1</th>
+                                    <td class="table-dark">Fakultas Ekonomi</td>
+                                    <td class="table-primary">S2 Manajemen, S1 Manajemen, S1 Akuntansi, D3 Akuntansi, dan D3 Sekretari</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="table-secondary">2</th>
+                                    <td class="table-dark">Fakultas Hukum</td>
+                                    <td class="table-primary">S2 Hukum, dan S1 Ilmu Hukum</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="table-secondary">3</th>
+                                    <td class="table-dark">Fakultas Kguruan dan Ilmu Pendidikan</td>
+                                    <td class="table-primary">S1 Pendidikan Pancasila Dan Kewarganegaran (PPKN), dan S1 Pendidikan Ekonomi</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="table-secondary">4</th>
+                                    <td class="table-dark">Fakultas MIPA</td>
+                                    <td class="table-primary">S1 Matematika</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="table-secondary">5</th>
+                                    <td class="table-dark">Fakultas Sastra</td>
+                                    <td class="table-primary">S1 Sastra Inggris, dan S1 Sastra Indonesia</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="table-secondary">6</th>
+                                    <td class="table-dark">Fakultas Teknik</td>
+                                    <td class="table-primary">S1 Teknik Elektro, S1 Teknik Kimia, S1 Teknik Industri, S1 Teknik Informatika, dan S1 Teknik Mesin</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                         
+                        </div>
+                        <div id="tabs-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Ruang Kelas</h5>
+                                  <p class="card-text">Kampus Universitas Pamulang memiliki ruang kelas yang nyaman  dalam belajar dan dilengkapi dengan fasilitas yang sangat memadai</p>
+                                  
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                
+                    <!--ini akhir list group-->
+                </div>
+                <!--right content-->
+                <div class="col-md-3">
+                    <!-- awal list grup-->
+                    <img src="images/aula.jpg" class="img-thumbnail" alt="...">
+                    <img src="images/lab.jpg" class="img-thumbnail" alt="...">
+                      
+                    <!--ini akhir list group-->
+                </div>
+            </div>
+            <!--baris ke empat-->
+            <div class="row">
+                <div class="alert alert-secondary" role="alert">
+                    Design by : Riris Lima Putri@2022
+                  </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
